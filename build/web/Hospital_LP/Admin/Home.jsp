@@ -13,11 +13,14 @@
         </head>
 
         <body>
+            <%@ include file="menu_Admin.jsp"%>
             <div class="container">
                 <h1 class="secondary-color">Hello World!</h1>
 
                 <button type="button" class="btn btn-primary btn-lg">Large button</button>
             </div>
+
+            <%@ include file="../scripts.jsp" %>
         </body>
 
         </html>
